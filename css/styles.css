@@ -1,0 +1,174 @@
+#title{
+  background-color: #ff4c68;
+}
+
+body{
+  font-family: 'Montserrat';
+  font-weight: 400;
+}
+
+h3{
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+h2{
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+.cta-txt{
+  font-family: 'Montserrat';
+  text-align: center;
+  padding: 50px 25% 0;
+  color: #fff;
+  font-weight: 900;
+  font-size: 2.5rem;
+}
+
+.navbar{
+  padding: 0;
+  padding-bottom: 4.5rem;
+  
+}
+
+.navbar-brand{
+  font-family: 'Ubuntu';
+  font-size: 2.5rem;
+}
+
+.MeetNew{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  font-weight: 900;
+  color: #fff;
+  line-height: 1.5;
+}
+
+.container-fluid
+{
+  padding: 3% 15% 7%;
+}
+
+.down-btn
+{
+  margin-top: 5%;
+  margin-right: 3%;
+}
+
+/* Title image */
+.title-img{
+  width: 50%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.nav-link{
+  fonr-size: 1.2rem
+}
+
+#features{
+  padding: 10% 15%;
+  position: relative;
+  background-color: #fff;
+}
+
+/* .ft-row{
+  margin: 150px auto 150px;
+  padding: ;
+  width: 80%;
+} */
+
+.three-ft{
+  text-align: center;
+}
+
+.text-ft{
+  margin: auto;
+  text-align: center;
+  color: #8f8f8f;
+  width:80%;
+}
+
+.icon-ft{
+  color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.icon-ft:hover{
+  color: #ff4c68;
+}
+
+#testimonials{
+  background-color: #ff4c68;  
+  text-align: center;
+  color: #fff;
+}
+
+.carousel-item{
+  padding: 5% 25%;
+}
+
+.test-img{
+  border-radius: 100%;
+  width:10%;
+  margin: 2%;
+}
+
+#press{
+  background-color: #ff4c68;  
+  text-align: center;
+  padding: 2% 5% 5%;
+}
+
+.press-img{
+  width: 15%;
+  margin: 2%;
+} 
+
+#pricing{
+  text-align: center;
+  padding: 5% 15%;
+}
+
+.price-col {
+  padding: 3% 2%;
+}
+
+#cta{
+  background-color: #ff4c68;  
+  text-align: center;
+  padding: 2% 5% 5%;  
+}
+
+#footer{
+  padding: 40px 40px 30px;
+  font-size: 0.7rem;
+  text-align: center;
+  background-color: #fff;
+}
+
+.foot-icon{
+  padding: 5px 5px 10px 5px;
+}
+
+@media (max-width:1051px) {
+
+  #title{
+    text-align: center;
+  }
+  .title-img{
+    padding-top: 15px;
+    position: static;
+    transform: rotate(0);   
+  }
+  
+}
